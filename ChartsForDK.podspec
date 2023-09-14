@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name = "ChartsForDK"
-  s.version = "3.6.0"
+  s.version = "3.6.1"
   s.summary = "A fork of Charts library for iOS, supporting iOS 11"
   s.homepage = "https://github.com/DriveQuantPublic/Charts-ios11"
   s.license = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
   s.authors = "Daniel Cohen Gindi", "Philipp Jahoda", "Amine Gahbiche"
-  s.ios.deployment_target = "11.0"
+  s.ios.deployment_target = "12.0"
   s.source = { :git => "https://github.com/DriveQuantPublic/Charts-ios11.git", :branch => 'feature/ChartsForDK' }
   s.default_subspec = "Core"
   s.swift_version = '5.3'
